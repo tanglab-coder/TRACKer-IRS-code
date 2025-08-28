@@ -88,8 +88,6 @@ def generate_and_screen_irs(target_rna):
 
 
 def print_results(results, top_n=5):
-    print("\n=== IRS序列筛选结果 ===")
-    print(f"{'排名':<4} {'IRS序列':<60} {'ΔG(IRS-Target)':<15} {'ΔG(IRS-HiBiT)':<15} {'置换得分':<15}")
     print("-" * 110)
 
     for i, result in enumerate(results[:top_n], 1):
@@ -108,4 +106,5 @@ if __name__ == "__main__":
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
+
 
