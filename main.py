@@ -63,7 +63,7 @@ def calculate_binding_energy(seq1, seq2, model):
 
 
 def generate_and_screen_irs(target_rna):
-    model = Model(material='rna', celsius=37)
+    model = Model(material='rna', celsius=31)
     recognition_strand = reverse_complement(target_rna)
     inhibition_candidates = generate_inhibition_strands()
     hibit_switch = "UCUCCUCUGGCGACCCUGAUGAGGCCGAAAGGCCGAAACGGUAUCGACCGUAGGUUGCCAGAACAGAGGAGAUAAAGAUGGUGAGCGGCUGGCGGCUGUUCAAGAAGAUUAGC"
@@ -106,5 +106,6 @@ if __name__ == "__main__":
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
+
 
 
