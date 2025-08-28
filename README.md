@@ -1,5 +1,6 @@
 This Script is for Automatic Generation and Screening of IRS (Inhibition-Recognition Strand) Sequences  
-This script is used to automatically generate and screen IRS (Inhibition-Recognition Strand) sequences. An IRS is an RNA sequence composed of two parts: the **Inhibition Strand** and the **Recognition Strand**. The goal is to design optimal IRS for different target RNA sequences to achieve precise activation control of ribozymes. The specific algorithm is as follows:  
+An IRS is an RNA sequence composed of two parts: the **Inhibition Strand** and the **Recognition Strand**. The goal is to design optimal IRS for different target RNA sequences to achieve precise activation control of ribozymes.
+The specific algorithm is as follows:  
 
 1️⃣ Design Principles  
 1.1 Recognition Strand  
