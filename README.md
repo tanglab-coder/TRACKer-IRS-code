@@ -6,8 +6,8 @@ This script is used to automatically generate and screen IRS (Inhibition-Recogni
 - Consists of the **reverse complementary sequence** of the input target RNA sequence.  
 - Follows the base pairing rules:  
   - A ↔ U  
-  - C ↔ G
- 1.2 Inhibition Strand  
+  - C ↔ G  
+1.2 Inhibition Strand  
 - Fixed length**: 24 nucleotides.  
 - Used to pair with the conserved structural region of the HH15 ribozyme and inhibit its activity.  
 - Construction principles are as follows:  
